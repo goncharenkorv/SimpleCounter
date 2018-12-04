@@ -15,7 +15,7 @@ SimpleCounter
 https://github.com/goncharenkorv/Counter
 
 Новая версия:
-С озвучиванием нажатий на кнопки + вибро
-С сохранением/восстановлением значения с помощью SharedPreferences
+* С озвучиванием нажатий на кнопки + вибро
+* С сохранением/восстановлением значения с помощью SharedPreferences
 
 @author Goncharenko Ruslan
