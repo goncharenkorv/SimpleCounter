@@ -49,8 +49,6 @@ public class MainActivity extends AppCompatActivity {
                 increment();
             }
         });
-        // устанавлиываем значение счетчика:
-        counterLabel.setText(Integer.toString(value));
 
         // кнопка увеличения:
         incrementButton = (Button) findViewById(R.id.incrementButton);
@@ -69,6 +67,9 @@ public class MainActivity extends AppCompatActivity {
                 decrement();
             }
         });
+
+        // устанавлиываем значение счетчика:
+        setValue(value);
     }
 
     /**
